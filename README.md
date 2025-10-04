@@ -11,6 +11,8 @@ Point mutations offer a rational design tool to subtly reshape the active site a
 
 - `rowanfinalapi1t5d.py` - Script that talks with the Rowan API. Uploads and sanitizes the pdbs in the chosen folder and then proceeds to dock them with a chosen ligand.
 
+ProteinMMPNN scripts (found in the ProteinMPNN folder )
+
 - `1_1t5d_proteinmpn.sh` - Script that runs proteinMPNN for the 1t5d.pdb file (needs to be downloaded) and its previosuly jsonl mask files (generated from MSA). Paths can be edited in the Variables section. 
 
 - `1_5bst_proteinmpn.sh` - Script that runs ProteinMPNN for the 5bst.pdb file (needs to be downloaded) and its previosuly jsonl mask files (generated from MSA). Paths can be edited in the Variables section. 
